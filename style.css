@@ -1,0 +1,218 @@
+/* RESET + FONT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* BODY BACKGROUNDS */
+body {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* PAGE BACKGROUNDS */
+body.index { background-image: url("images/portfolio1.jpg"); }
+body.about { background-image: url("images/about.jpeg"); }
+body.skills { background-image: url("images/skills.jpeg"); }
+body.contact { background-image: url("images/contact.jpeg"); }
+body.achievements { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf2MYeyIV8hIRhEhVElEWldlACuos2kS2Egw&s"); }
+
+/* NAVBAR (FIXED & SAME EVERYWHERE) */
+.navbar {
+  background: #222;
+  padding: 14px 30px;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-menu a:hover {
+  color: #00c6ff;
+}
+
+/* COMMON SECTIONS */
+.home-section {
+  background: rgba(255, 255, 255, 0.9);
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 900px;
+  text-align: center;
+}
+
+/* SKILLS */
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.skill-list li {
+  background: #eee;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.center-heading {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+/* PROJECTS */
+.project {
+  margin-top: 20px;
+}
+
+.project img {
+  width: 220px;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .cert-grid {
+    grid-template-columns: 1fr; /* mobile me 1 */
+  }
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 in one row */
+  gap: 30px;
+  margin-top: 25px;
+}
+
+/* CONTACT FORM */
+#contactForm {
+  width: 420px;
+  margin: 120px auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; /* 🔥 vertical */
+  gap: 15px;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#contactForm button {
+  padding: 12px;
+  background: #2f2f2f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#contactForm button:hover {
+  background: #444;
+}
+
+/* NEW */
+/* ALL HEADINGS */
+.home-section h2,
+.home-section h3,
+.home-section h4 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* FONT SIZES */
+.home-section h2 { font-size: 26px; }
+.home-section h3 { font-size: 22px; }
+.home-section h4 { font-size: 18px; }
+
+/* UNDERLINE FOR ALL HEADINGS */
+.home-section h2::after,
+.home-section h3::after
+ {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #08418b;
+  margin: 8px auto 0;
+}
+
+/* TECHNICAL SKILLS MAIN HEADING */
+.center-heading {
+  font-size: 30px;
+}
+
+/* ONLY achievements headings */
+/* ONLY achievements heading */
+.achievements-section {
+  text-align: center;
+}
+
+.ach-heading {
+  display: inline-block;            /* 🔥 MUST */
+  font-size: 26px;
+  padding-bottom: 6px;
+  margin: 20px 0;
+  border-bottom: 3px solid #0f50a5; /* 🔥 underline */
+  color: #222;
+}
+ /* CENTER container */
+.cert-card {
+  text-align: center;
+}
+
+/* ONLY TEXT WIDTH UNDERLINE */
+.cert-card h3 {
+  display: inline-block;        /* 🔥 MOST IMPORTANT */
+  font-size: 22px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #0f50a5;
+}
+
+.cert-card img {
+  width: 500px;
+  max-width: 380px;     /* same width */
+  height: 280px;        /* same height */
+  object-fit: contain;  /* image cut nahi hogi */
+  display: block;
+  margin: 0 auto 12px;
+  background: #fff;
+}
