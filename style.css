@@ -58,7 +58,7 @@ body.achievements { background-image: url("https://encrypted-tbn0.gstatic.com/im
   color: #00c6ff;
 }
 
-/* COMMON SECTIONS */
+/* SECTIONS */
 .home-section {
   background: rgba(255, 255, 255, 0.9);
   margin: 40px auto;
@@ -178,18 +178,17 @@ body.achievements { background-image: url("https://encrypted-tbn0.gstatic.com/im
   font-size: 30px;
 }
 
-/* ONLY achievements headings */
-/* ONLY achievements heading */
+/* achievements headings */
 .achievements-section {
   text-align: center;
 }
 
 .ach-heading {
-  display: inline-block;            /* 🔥 MUST */
+  display: inline-block;        
   font-size: 26px;
   padding-bottom: 6px;
   margin: 20px 0;
-  border-bottom: 3px solid #0f50a5; /* 🔥 underline */
+  border-bottom: 3px solid #0f50a5; 
   color: #222;
 }
  /* CENTER container */
@@ -197,7 +196,7 @@ body.achievements { background-image: url("https://encrypted-tbn0.gstatic.com/im
   text-align: center;
 }
 
-/* ONLY TEXT WIDTH UNDERLINE */
+/* TEXT WIDTH UNDERLINE */
 .cert-card h3 {
   display: inline-block;        /* 🔥 MOST IMPORTANT */
   font-size: 22px;
@@ -215,6 +214,9 @@ body.achievements { background-image: url("https://encrypted-tbn0.gstatic.com/im
   margin: 0 auto 12px;
   background: #fff;
 =======
+
+  /*FOR INPUT FORM CSS */
+  
 /* Page background */
 body {
     background-image: url("https://www.shutterstock.com/image-vector/artificial-intelligence-circuit-electric-line-600nw-2495924357.jpg");
