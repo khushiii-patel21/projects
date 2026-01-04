@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-/* RESET + FONT */
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +21,7 @@ body.skills { background-image: url("images/skills.jpeg"); }
 body.contact { background-image: url("images/contact.jpeg"); }
 body.achievements { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf2MYeyIV8hIRhEhVElEWldlACuos2kS2Egw&s"); }
 
-/* NAVBAR (FIXED & SAME EVERYWHERE) */
+/* NAVBAR*/
 .navbar {
   background: #222;
   padding: 14px 30px;
@@ -147,7 +146,6 @@ body.achievements { background-image: url("https://encrypted-tbn0.gstatic.com/im
   background: #444;
 }
 
-/* NEW */
 /* ALL HEADINGS */
 .home-section h2,
 .home-section h3,
@@ -298,7 +296,7 @@ body {
     color: #000;
 }
 
-/* Success message (if you add later) */
+/* Success message */
 .success {
     color: #7CFC00;
     text-align: center;
@@ -306,7 +304,7 @@ body {
     font-size: 14px;
 }
 
-/* Error message (future use) */
+/* Error message */
 .error {
     color: #ff4d4d;
     font-size: 12px;
