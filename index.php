@@ -6,7 +6,7 @@ if (!$conn) {
     die("Database connection failed");
 }
 
-// Form submit logic
+// Form submit
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
